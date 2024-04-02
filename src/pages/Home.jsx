@@ -10,6 +10,7 @@ import challenge from '../assests/challenge.png';
 import write from '../assests/write.png';
 import accompany from '../assests/accompany.png';
 import pri from '../assests/pri.jpg';
+import ContactForm from '../components/ContactForm';
 
 const Home = () => {
   return (
@@ -194,6 +195,8 @@ const Home = () => {
           />
         </div>
       </div>
+
+      <ContactForm />
     </>
   );
 };
