@@ -11,6 +11,7 @@ import write from '../assests/write.png';
 import accompany from '../assests/accompany.png';
 import pri from '../assests/pri.jpg';
 import ContactForm from '../components/ContactForm';
+import Footer from '../components/Footer';
 
 const Home = () => {
   return (
@@ -197,6 +198,7 @@ const Home = () => {
       </div>
 
       <ContactForm />
+      <Footer />
     </>
   );
 };

@@ -17,8 +17,6 @@ const Navbar = () => {
 
   const closeMenu = () => setClick(false);
 
-
-
   return (
     <div>
       <div className='header'>
@@ -62,10 +60,10 @@ const Navbar = () => {
               </NavLink>
             </li>
 
-            <button className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded'>
+            <button className=' bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-4 rounded'>
               To get a consultation
             </button>
-            <button className=' mt-3 md:mt-0 ml-0 md:ml-3 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded'>
+            <button className=' mt-3 md:mt-0 ml-0 md:ml-3 bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-4 rounded'>
               Join the Privilege club
             </button>
           </ul>
