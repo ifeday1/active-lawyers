@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
-import { Link, animateScroll as scroll } from 'react-scroll';
 import { NavLink } from 'react-router-dom';
 import './Navbar.css';
 import 'aos/dist/aos.css';
@@ -18,9 +17,7 @@ const Navbar = () => {
 
   const closeMenu = () => setClick(false);
 
-  const ScrollToTop = () => {
-    scroll.scrollToTop();
-  };
+
 
   return (
     <div>
