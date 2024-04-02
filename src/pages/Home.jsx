@@ -109,9 +109,9 @@ const Home = () => {
         </div>
       </div>
 
-      <div class='flex flex-wrap justify-evenly pt-16'>
+      <div class='flex flex-wrap justify-evenly pt-16' id='privilege'>
         <div class='flex flex-col justify-center  m-4'>
-          <h2 class='text-xl font-bold mb-2'>Active Lawyers</h2>
+          <h2 class='text-4xl font-bold mb-2'>Active Lawyers</h2>
           <p class='text-gray-600 mb-4'>
             Get your Wallman Lawyers loyalty card
           </p>

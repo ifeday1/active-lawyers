@@ -6,7 +6,10 @@ import { states } from '../utils/states';
 const ContactForm = () => {
   return (
     <>
-      <div class=' bg-orange-100 flex flex-col md:flex-row justify-end items-center mt-20 gap-0 md:gap-[350px]'>
+      <div
+        class=' bg-orange-100 flex flex-col md:flex-row justify-end items-center mt-20 gap-0 md:gap-[350px]'
+        id='form'
+      >
         <div class='flex flex-col justify-center items-center m-4'>
           <h2 class='text-3xl flex items-center justify-center font-bold mb-4'>
             <img src={mail} alt='Icon' class='w-8 h-8 mr-3 md:mr-5 ' />
