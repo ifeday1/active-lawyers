@@ -43,7 +43,29 @@ const Partners = () => {
       </div>
 
       <PartnerPic />
+      <hr class='border-b mx-4 my-20 md:mx-28 border-orange-800' />
 
+      <div className='mx-4 md:mx-28'>
+        <h4 className=' font-semibold text-xl md:text-4xl  mb-10'>
+          To ensure reliable and high-quality protection of the rights of our
+          <br></br>
+          clients, our team consists of specialized specialists with extensive
+          <br></br>
+          experience - to protect, namely:
+        </h4>
+        <p className=' font-medium md:text-2xl text-md'>- Civil Law Lawyers</p>
+        <p className=' font-medium md:text-2xl text-md'>
+          - Arbitration managers
+        </p>
+        <p className=' font-medium md:text-2xl text-md'>- Lawyers</p>
+        <p className=' font-medium md:text-2xl text-md'>- Corporate lawyers</p>
+        <p className=' font-medium md:text-2xl text-md'>- Family lawyers</p>
+        <p className=' font-medium md:text-2xl text-md'>- Experts in tax law</p>
+        <p className=' font-medium md:text-2xl text-md'>
+          - International Lawyers
+        </p>
+        <p className=' font-medium md:text-2xl text-md mb-9'>- Mediators </p>
+      </div>
       <Footer />
     </>
   );

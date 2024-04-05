@@ -61,12 +61,12 @@ const Navbar = () => {
             </li>
 
             <a href='#form' onClick={closeMenu}>
-              <button className=' bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-4 rounded'>
+              <button className=' bg-gold hover:bg-dark text-white font-bold py-2 px-4 rounded'>
                 To get a consultation
               </button>
             </a>
             <a href='#privilege' onClick={closeMenu}>
-              <button className=' mt-3 md:mt-0 ml-0 md:ml-3 bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-4 rounded'>
+              <button className=' mt-3 md:mt-0 ml-0 md:ml-3 bg-gold hover:bg-dark text-white font-bold py-2 px-4 rounded'>
                 Join the Privilege club
               </button>
             </a>

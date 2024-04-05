@@ -1,6 +1,17 @@
 import React from 'react';
 import serhead from '../assests/serhead.jpg';
 import legalser from '../assests/legalser.png';
+import arb from '../assests/arb.png';
+import adm from '../assests/adm.png';
+import bankc from '../assests/bankc.png';
+import land from '../assests/land.png';
+import cri from '../assests/cri.png';
+import inh from '../assests/inh.png';
+import fam from '../assests/fam.png';
+import tax from '../assests/tax.png';
+import lab from '../assests/lab.png';
+import int from '../assests/int.png';
+
 import Navbar from '../components/Navbar';
 import ContactForm from '../components/ContactForm';
 import Footer from '../components/Footer';
@@ -29,6 +40,114 @@ const Services = () => {
               client support in various <br></br>areas, including:
             </p>
           </div>
+        </div>
+
+        {/* flex1 */}
+        <div class='flex justify-around flex-col md:flex-row items-left mt-14'>
+          <a href='/' class='flex flex-col justify-center items-left m-4'>
+            <img src={arb} alt='icon' className='w-12 h-12 mb-7' />
+            <h3 className=' mb-2 font-medium text-2xl hover:text-gold'>
+              Arbitration disputes
+            </h3>
+            <h1>More details </h1>
+          </a>
+
+          <a href='/' class='flex flex-col justify-around items-left m-4'>
+            <img src={bankc} alt='icon' className='w-12 h-12 mb-7' />
+            <h3 className=' mb-2 font-medium text-2xl hover:text-gold'>
+              Bankruptcy
+            </h3>
+            <h1>More details </h1>
+          </a>
+
+          <a href='/' class='flex flex-col justify-center items-left m-4'>
+            <img src={adm} alt='icon' className='w-12 h-12 mb-7' />
+            <h3 className=' mb-2 font-medium text-2xl hover:text-gold'>
+              Administrative Affairs
+            </h3>
+            <h1>More details </h1>
+          </a>
+        </div>
+
+        {/* flex2 */}
+        <div class='flex justify-around flex-col md:flex-row  items-left mt-14'>
+          <a href='/' class='flex flex-col justify-around mr-36 items-left m-4'>
+            <img src={cri} alt='icon' className='w-12 h-12 mb-7' />
+            <h3 className=' mb-2 font-medium text-2xl hover:text-gold'>
+              Criminal law
+            </h3>
+            <h1>More details </h1>
+          </a>
+
+          <a href='/' class='flex flex-col justify-center mr-10 items-left m-4'>
+            <img src={fam} alt='icon' className='w-12 h-12 mb-7' />
+            <h3 className=' mb-2 font-medium text-2xl hover:text-gold'>
+              Family law
+            </h3>
+            <h1>More details </h1>
+          </a>
+
+          <a href='/' class='flex flex-col justify-center mr-24 items-left m-4'>
+            <img src={inh} alt='icon' className='w-12 h-12 mb-7' />
+            <h3 className=' mb-2 font-medium text-2xl hover:text-gold'>
+              Inheritance law
+            </h3>
+            <h1>More details </h1>
+          </a>
+        </div>
+
+        {/* flex3 */}
+        <div class='flex justify-around flex-col md:flex-row items-left mt-14'>
+          <a href='/' class='flex flex-col justify-center  items-left m-4'>
+            <img src={lab} alt='icon' className='w-12 h-12 mb-7' />
+            <h3 className=' mb-2 font-medium text-2xl hover:text-gold'>
+              Labor law
+            </h3>
+            <h1>More details </h1>
+          </a>
+
+          <a href='/' class='flex flex-col justify-center items-left m-4'>
+            <img src={land} alt='icon' className='w-12 h-12 mb-7' />
+            <h3 className=' mb-2 font-medium text-2xl hover:text-gold'>
+              Land law
+            </h3>
+            <h1>More details </h1>
+          </a>
+
+          <a href='/' class='flex flex-col justify-center items-left m-4'>
+            <img src={tax} alt='icon' className='w-12 h-12 mb-7' />
+            <h3 className=' mb-2 font-medium text-2xl hover:text-gold'>
+              Tax law
+            </h3>
+            <h1>More details </h1>
+          </a>
+        </div>
+
+        {/* flex4 */}
+        <div class='flex justify-around flex-col md:flex-row items-left mt-14'>
+          <a href='/' class='flex flex-col justify-center  items-left m-4'>
+            <img src={inh} alt='icon' className='w-12 h-12 mb-7' />
+            <h3 className=' mb-2 font-medium text-2xl hover:text-gold'>
+              Corporate disputes
+            </h3>
+            <h1>More details </h1>
+          </a>
+
+          <a href='/' class='flex flex-col justify-center items-left m-4'>
+            <img src={int} alt='icon' className='w-12 h-12 mb-7' />
+            <h3 className=' mb-2 font-medium text-2xl hover:text-gold'>
+              International Commercial<br></br> Arbitration Court (ICAC)
+            </h3>
+            <h1>More details </h1>
+          </a>
+
+          <a href='/' class='flex flex-col justify-center items-left m-4'>
+            <img src={tax} alt='icon' className='w-12 h-12 mb-7' />
+            <h3 className=' mb-2 font-medium text-2xl hover:text-gold'>
+              Outsourcing
+            </h3>
+            <h1>More details </h1>
+          </a>
         </div>
 
         <ContactForm />
