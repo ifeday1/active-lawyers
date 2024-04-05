@@ -62,7 +62,7 @@ const Home = () => {
             problems. Working with Wallman means being behind a stone wall.
             <br></br>
           </p>
-          <button class=' bg-orange-400 hover:bg-orange-600 text-white font-bold py-2 px-4 rounded'>
+          <button class=' bg-gold hover:bg-dark text-white font-bold py-2 px-4 rounded'>
             More about us
           </button>
         </div>
@@ -183,8 +183,8 @@ const Home = () => {
             </div>
           </div>
 
-          <button class=' bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-4 rounded'>
-            Button
+          <button class=' bg-gold hover:bg-dark text-white font-bold py-2 px-4 rounded'>
+            Jointhe privilege club
           </button>
         </div>
 
