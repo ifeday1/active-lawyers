@@ -184,7 +184,7 @@ const Home = () => {
           </div>
 
           <button class=' bg-gold hover:bg-dark text-white font-bold py-2 px-4 rounded'>
-            Jointhe privilege club
+            Join the privilege club
           </button>
         </div>
 
