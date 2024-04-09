@@ -101,7 +101,7 @@ const Services = () => {
           <a href='/' class='flex flex-col justify-center items-left m-4'>
             <img src={tax} alt='icon' className='w-12 h-12 mb-7' />
             <h3 className=' mb-2 font-medium text-2xl hover:text-gold'>
-              Tax law
+              Tax Law
             </h3>
             <h1>More details </h1>
           </a>
@@ -109,7 +109,7 @@ const Services = () => {
           <a href='/' class='flex flex-col justify-center  items-left m-4'>
             <img src={inh} alt='icon' className='w-12 h-12 mb-7' />
             <h3 className=' mb-2 font-medium text-2xl hover:text-gold'>
-              Corporate law services
+              Corporate Law Services
             </h3>
             <h1>More details </h1>
           </a>
@@ -117,7 +117,7 @@ const Services = () => {
           <a href='/' class='flex flex-col justify-center items-left m-4'>
             <img src={int} alt='icon' className='w-12 h-12 mb-7' />
             <h3 className=' mb-2 font-medium text-2xl hover:text-gold'>
-              Intellectual Property law
+              Intellectual Property Law
             </h3>
             <h1>More details </h1>
           </a>
