@@ -1,9 +1,9 @@
 import React from 'react';
-import path1 from '../assests/path1.jpg';
+
 import law1 from '../assests/law1.jpg';
 import law2 from '../assests/law2.jpg';
 import law3 from '../assests/law3.jpg';
-import law4 from '../assests/law4.jpg';
+// import law4 from '../assests/law4.jpg';
 import law5 from '../assests/law5.jpg';
 import law6 from '../assests/law6.jpg';
 import law7 from '../assests/law7.jpg';
