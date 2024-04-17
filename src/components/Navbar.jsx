@@ -4,6 +4,7 @@ import { NavLink } from 'react-router-dom';
 import './Navbar.css';
 import 'aos/dist/aos.css';
 import AOS from 'aos';
+import logo1 from '../assests/logo1.png';
 
 const Navbar = () => {
   //useEffect
@@ -22,8 +23,8 @@ const Navbar = () => {
       <div className='header'>
         <nav className='navbar'>
           <NavLink to='/'>
-            <div>
-              <img src='' alt='logo' />
+            <div className=' w-20'>
+              <img src={logo1} alt='logo' />
             </div>
           </NavLink>
 

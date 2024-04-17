@@ -59,7 +59,7 @@ const Footer = () => {
 
         <div class='flex flex-col text-sm justify-center items-center m-4 text-white'>
           <p>INN: 3804116025, KPP: 380401001, OGRN: 1223800003129</p>
-          <p>© 2024 Limited Liability Company "Wollman Law Company"</p>
+          <p>© 2024 Limited Liability Company "Active Lawyers"</p>
         </div>
       </div>
     </>
