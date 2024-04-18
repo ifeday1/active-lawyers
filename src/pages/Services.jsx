@@ -44,7 +44,7 @@ const Services = () => {
 
         {/* flex1 */}
         <div class='flex justify-around flex-col md:flex-row items-left mt-14'>
-          <a href='/' class=' flex flex-col justify-center items-left m-4'>
+          <a href='/alternative' class=' flex flex-col justify-center items-left m-4'>
             <img src={arb} alt='icon' className='w-12 h-12 mb-7' />
             <h3 className=' mb-2 font-medium text-2xl hover:text-gold'>
               Alternative <br></br>Disputes Resolutions
