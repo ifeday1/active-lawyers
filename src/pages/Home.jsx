@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
-import landing from '../assests/landing1.jpg';
+import landing from '../assests/landing3.jpg';
 import landing1 from '../assests/landing2.jpg';
 import protect from '../assests/protect.png';
 import bank from '../assests/bank.png';
