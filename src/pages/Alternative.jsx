@@ -13,7 +13,7 @@ const Alternative = () => {
         <div class='flex flex-col justify-center items-left m-4'>
           <h1 class='text-2xl font-bold mb-2 flex flex-row gap-4'>
             <span>
-              <img src={arb} className=' w-16' />
+              <img src={arb} alt='srb' className=' w-16' />
             </span>{' '}
             Arbitration<br></br> disputes
           </h1>
@@ -37,7 +37,6 @@ const Alternative = () => {
             problems. Working with Wallman means being behind a stone wall.
             <br></br>
           </p>
-      
         </div>
 
         <div class='flex justify-center items-center m-4'>
