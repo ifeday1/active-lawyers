@@ -2,8 +2,13 @@ import React from 'react';
 import mail from '../assests/mail.png';
 import contact from '../assests/contact1.jpg';
 import { states } from '../utils/states';
+import { useForm, ValidationError } from '@formspree/react';
 
 const ContactForm = () => {
+  const [state, handleSubmit] = useForm('xeqynnbl');
+  if (state.succeeded) {
+    return <p>Thanks for Filling!</p>;
+  }
   return (
     <>
       <div
@@ -16,7 +21,7 @@ const ContactForm = () => {
             To get a consultation
           </h2>
 
-          <form class='w-full max-w-sm'>
+          <form class='w-full max-w-sm' onSubmit={handleSubmit}>
             <div class='mb-4'>
               <label for='name' class='block text-gray-700 font-bold mb-2'>
                 Name:
@@ -26,6 +31,11 @@ const ContactForm = () => {
                 id='name'
                 name='name'
                 class='shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline'
+              />
+              <ValidationError
+                prefix='name'
+                field='name'
+                errors={state.errors}
               />
             </div>
             <div class='mb-4'>
@@ -38,6 +48,11 @@ const ContactForm = () => {
                 name='phone'
                 class='shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline'
               />
+              <ValidationError
+                prefix='phone'
+                field='phone'
+                errors={state.errors}
+              />
             </div>
             <div class='mb-4'>
               <label for='questions' class='block text-gray-700 font-bold mb-2'>
@@ -48,6 +63,11 @@ const ContactForm = () => {
                 name='questions'
                 class='shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline'
               ></textarea>
+              <ValidationError
+                prefix='questions'
+                field='questions'
+                errors={state.errors}
+              />
             </div>
             <div class='mb-4'>
               <label for='states' class='block text-gray-700 font-bold mb-2'>
@@ -58,6 +78,11 @@ const ContactForm = () => {
                 name='states'
                 class='shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline'
               >
+                <ValidationError
+                  prefix='states'
+                  field='states'
+                  errors={state.errors}
+                />
                 {states?.map((x, i) => (
                   <option value={x?.state} key={i}>
                     {x?.state}
@@ -77,6 +102,7 @@ const ContactForm = () => {
             </div>
             <button
               type='submit'
+              disabled={state.submitting}
               class=' bg-gold hover:bg-dark text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline'
             >
               Send a request
