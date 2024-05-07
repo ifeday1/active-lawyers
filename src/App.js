@@ -6,6 +6,7 @@ import Services from './pages/Services';
 import Partners from './pages/Partners';
 import Contact from './pages/Contact';
 import Alternative from './pages/Alternative';
+import Legal from './pages/Legal';
 
 function App() {
   return (
@@ -13,6 +14,8 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Home />}></Route>
+          <Route path='/legal' element={<Legal />}></Route>
+
           <Route path='/legal-services' element={<Services />}></Route>
           <Route path='/alternative' element={<Alternative />}></Route>
 

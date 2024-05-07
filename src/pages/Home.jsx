@@ -21,7 +21,7 @@ const Home = () => {
         <img src={landing} alt='landing' class='max-w-full h-auto' />
 
         <div class='absolute top-0 left-0 w-full h-full flex items-center flex-col pt-[100px] md:pt-[400px] text-center'>
-          <a href='/service'>
+          <a href='/legal'>
             <div class=' px-5 flex items-center justify-center text-white text-2xl md:text-5xl hover:text-yellow-600 transition duration-300 ease-in-out'>
               <img src={protect} alt='Icon' class='w-8 h-8 mr-3 md:mr-5 ' />
               Legal protection of businesses and citizens
