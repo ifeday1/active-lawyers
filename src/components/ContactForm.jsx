@@ -27,6 +27,7 @@ const ContactForm = () => {
                 Name:
               </label>
               <input
+                required
                 type='text'
                 id='name'
                 name='name'
@@ -43,6 +44,7 @@ const ContactForm = () => {
                 Phone Number:
               </label>
               <input
+                required
                 type='tel'
                 id='phone'
                 name='phone'
@@ -59,6 +61,7 @@ const ContactForm = () => {
                 Questions:
               </label>
               <textarea
+                required
                 id='questions'
                 name='questions'
                 class='shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline'
@@ -74,6 +77,7 @@ const ContactForm = () => {
                 State:
               </label>
               <select
+                required
                 id='states'
                 name='states'
                 class='shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline'
