@@ -28,7 +28,7 @@ const Home = () => {
             </div>
           </a>
 
-          <a href='/service'>
+          <a href='/bankruptcy'>
             <div class=' px-5 pt-6 flex  text-white text-2xl md:text-5xl hover:text-yellow-600 transition duration-300 ease-in-out'>
               <img src={bank} alt='Icon' class='w-8 h-8 mr-3 md:mr-5 ' />
               Bankruptcy
@@ -37,7 +37,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div class='flex flex-wrap justify-center items-center mt-20'>
+      <div class='flex flex-wrap justify-center items-center mt-5'>
         <div class='flex flex-col justify-center items-left m-4'>
           <h1 class='text-2xl font-bold mb-2'>
             Why do clients <br></br>choose Active Lawyers?
@@ -61,8 +61,7 @@ const Home = () => {
             <br></br>
             The ability to protect means protecting a business or person from
             <br></br>
-            problems. Working with Active Lawyers
-             means being behind a stone
+            problems. Working with Active Lawyers means being behind a stone
             wall.
             <br></br>
           </p>
@@ -84,26 +83,26 @@ const Home = () => {
         <img src={landing1} alt='landing' class='w-full h-[400px] md:h-auto' />
 
         <div class='absolute top-0 left-0 w-full h-[auto] flex items-center flex-col pt-[100px] md:pt-[340px] text-center'>
-          <a href='/service'>
+          <a href='/legal-services'>
             <div class=' px-5 pt-20 md:pt-0 flex items-center justify-center text-white text-2xl md:text-5xl hover:text-yellow-600 transition duration-300 ease-in-out'>
               <img src={protect1} alt='Icon' class='w-8 h-8 mr-3 md:mr-5 ' />
               Let's protect
             </div>
           </a>
 
-          <a href='/service'>
+          <a href='/legal-services'>
             <div class=' px-5 pt-6 flex items-center justify-center  text-white text-2xl md:text-5xl hover:text-yellow-600 transition duration-300 ease-in-out'>
               <img src={challenge} alt='Icon' class='w-8 h-8 mr-3 md:mr-5 ' />
               Let's challenge
             </div>
-            <a href='/service'>
+            <a href='/legal-services'>
               <div class=' px-5 pt-6 flex items-center justify-center text-white text-2xl md:text-5xl hover:text-yellow-600 transition duration-300 ease-in-out'>
                 <img src={write} alt='Icon' class='w-8 h-8 mr-3 md:mr-5 ' />
                 We'll write it off
               </div>
             </a>
 
-            <a href='/service'>
+            <a href='/legal-services'>
               <div class=' px-5 pt-6 flex items-center justify-center  text-white text-2xl md:text-5xl hover:text-yellow-600 transition duration-300 ease-in-out'>
                 <img src={accompany} alt='Icon' class='w-8 h-8 mr-3 md:mr-5 ' />
                 We will accompany you

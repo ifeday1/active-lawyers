@@ -7,6 +7,7 @@ import Partners from './pages/Partners';
 import Contact from './pages/Contact';
 import Alternative from './pages/Alternative';
 import Legal from './pages/Legal';
+import Bankruptcy from './pages/Bankruptcy';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />}></Route>
           <Route path='/legal' element={<Legal />}></Route>
+          <Route path='/bankruptcy' element={<Bankruptcy />}></Route>
 
           <Route path='/legal-services' element={<Services />}></Route>
           <Route path='/alternative' element={<Alternative />}></Route>

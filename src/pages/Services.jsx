@@ -44,7 +44,10 @@ const Services = () => {
 
         {/* flex1 */}
         <div class='flex justify-around flex-col md:flex-row items-left mt-14'>
-          <a href='/alternative' class=' flex flex-col justify-center items-left m-4'>
+          <a
+            href='/alternative'
+            class=' flex flex-col justify-center items-left m-4'
+          >
             <img src={arb} alt='icon' className='w-12 h-12 mb-7' />
             <h3 className=' mb-2 font-medium text-2xl hover:text-gold'>
               Alternative <br></br>Disputes Resolutions
@@ -52,7 +55,10 @@ const Services = () => {
             <h1>More details </h1>
           </a>
 
-          <a href='/' class='flex flex-col justify-around items-left m-4'>
+          <a
+            href='/bankruptcy'
+            class='flex flex-col justify-around items-left m-4'
+          >
             <img src={bankc} alt='icon' className='w-12 h-12 mb-7' />
             <h3 className=' mb-2 font-medium text-2xl hover:text-gold'>
               Bankruptcy
