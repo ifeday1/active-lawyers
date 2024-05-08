@@ -49,17 +49,21 @@ const Home = () => {
             <br></br>
             and protecting assets, then for a citizen it is preserving freedom,
             <br></br>
-            property, honor and dignity. For Wallman, this is a responsibility,
+            property, honor and dignity. For Active Lawyers, this is a
+            responsibility,
             <br></br>
-            legal and moral. Wallman always stands for sincerity and transparent
+            legal and moral. Active Lawyers always stands for sincerity and
+            transparent
             <br></br>
-            relationships without false guarantees. Wallman for quality,
+            relationships without false guarantees. Active Lawyers for quality,
             <br></br>
             fulfillment of its obligations, efficiency and modern experience.
             <br></br>
             The ability to protect means protecting a business or person from
             <br></br>
-            problems. Working with Wallman means being behind a stone wall.
+            problems. Working with Active Lawyers
+             means being behind a stone
+            wall.
             <br></br>
           </p>
           <button class=' bg-gold hover:bg-dark text-white font-bold py-2 px-4 rounded'>
