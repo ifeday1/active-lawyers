@@ -116,7 +116,7 @@ const Home = () => {
         <div class='flex flex-col justify-center  m-4'>
           <h2 class='text-4xl font-bold mb-2'>Active Lawyers</h2>
           <p class='text-gray-600 mb-4'>
-            Get your Wallman Lawyers loyalty card
+            Get your Active Lawyers Lawyers loyalty card
           </p>
 
           <div class='flex justify-center items-center mb-4 gap-10'>
@@ -127,7 +127,7 @@ const Home = () => {
               </p>
 
               <p class='text-gray-700'>
-                Accumulative electronic<br></br> Cashback cardt
+                Accumulative electronic<br></br> Cashback card
               </p>
             </div>
             <div>
