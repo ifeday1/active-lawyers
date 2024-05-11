@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import ContactForm from '../components/ContactForm';
 import arb from '../assests/arb.png';
+import WhatsappChat from '../components/Whatsapp/Index';
 
 const Alternative = () => {
   return (
@@ -45,6 +46,7 @@ const Alternative = () => {
       </div>
 
       <ContactForm />
+      <WhatsappChat/>
       <Footer />
     </>
   );

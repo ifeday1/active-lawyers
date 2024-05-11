@@ -5,6 +5,7 @@ import path from '../assests/path.png';
 
 import Footer from '../components/Footer';
 import PartnerPic from '../components/PartnerPic';
+import WhatsappChat from '../components/Whatsapp/Index';
 
 const Partners = () => {
   return (
@@ -66,6 +67,7 @@ const Partners = () => {
         </p>
         <p className=' font-medium md:text-2xl text-md mb-9'>- Mediators </p>
       </div>
+      <WhatsappChat/>
       <Footer />
     </>
   );

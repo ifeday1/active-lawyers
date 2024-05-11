@@ -5,6 +5,7 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import ContactForm from '../components/ContactForm';
 import gen from '../assests/gen.jpg';
+import WhatsappChat from '../components/Whatsapp/Index';
 
 const Legal = () => {
   return (
@@ -104,6 +105,7 @@ const Legal = () => {
       </div>
 
       <ContactForm />
+      <WhatsappChat/>
       <Footer />
     </>
   );

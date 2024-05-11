@@ -4,6 +4,7 @@ import serhead from '../assests/serhead.jpg';
 import mail from '../assests/mail.png';
 import ContactForm from '../components/ContactForm';
 import Footer from '../components/Footer';
+import WhatsappChat from '../components/Whatsapp/Index';
 
 const Contact = () => {
   return (
@@ -107,6 +108,7 @@ const Contact = () => {
       </div>
 
       <ContactForm />
+      <WhatsappChat />
       <Footer />
     </>
   );

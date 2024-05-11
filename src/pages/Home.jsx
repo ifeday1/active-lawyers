@@ -12,6 +12,7 @@ import accompany from '../assests/accompany.png';
 import pri from '../assests/pri.jpg';
 import ContactForm from '../components/ContactForm';
 import Footer from '../components/Footer';
+import Whatsapp from '../components/Whatsapp/Index';
 
 const Home = () => {
   return (
@@ -201,6 +202,7 @@ const Home = () => {
       </div>
 
       <ContactForm />
+      <Whatsapp />
       <Footer />
     </>
   );

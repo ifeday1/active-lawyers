@@ -15,6 +15,7 @@ import int from '../assests/int.png';
 import Navbar from '../components/Navbar';
 import ContactForm from '../components/ContactForm';
 import Footer from '../components/Footer';
+import WhatsappChat from '../components/Whatsapp/Index';
 
 const Services = () => {
   return (
@@ -141,6 +142,7 @@ const Services = () => {
         </div>
 
         <ContactForm />
+        <WhatsappChat />
         <Footer />
       </>
     </>
