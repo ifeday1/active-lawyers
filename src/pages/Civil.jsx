@@ -2,11 +2,11 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import ContactForm from '../components/ContactForm';
-import arb from '../assests/arb.png';
+import cri from '../assests/cri.png';
 import gen from '../assests/gen.jpg';
 import WhatsappChat from '../components/Whatsapp/Index';
 
-const Alternative = () => {
+const Civil = () => {
   return (
     <>
       <Navbar />
@@ -15,23 +15,20 @@ const Alternative = () => {
         <div class='flex flex-col justify-center items-left m-4'>
           <h1 class='text-2xl font-bold mb-2 flex flex-row gap-4'>
             <span>
-              <img src={arb} alt='srb' className=' w-16 mb-5' />
+              <img src={cri} alt='srb' className=' w-16 mb-5' />
             </span>{' '}
-            Arbitration<br></br> disputes
+            Civil/Criminal Litigation
           </h1>
           <p class='text-gray-600 mb-4'>
-            Resolving disputes from economic or business activities entails
+            Civil Litigation: Civil litigation involves legal disputes between
             <br></br>
-            numerous complexities and specifics. The evolving judicial<br></br>
-            practices, new laws, and the variety of arbitration dispute types
+            individuals or entities seeking monetary compensation or specific
             <br></br>
-            necessitate expert legal assistance. Active Lawyers guarantees the
+            performance rather than criminal sanctions. Common types of civil
             <br></br>
-            effective safeguarding of its clients' rights and interests in
+            litigation include contract disputes, property disputes, family law
             <br></br>
-            arbitration proceedings for all types of disputes under Nigerian
-            <br></br>
-            law.
+            issues, and personal injury claims.
           </p>
         </div>
 
@@ -52,20 +49,14 @@ const Alternative = () => {
         <div class='flex justify-around  p-4'>
           <div class='text-left text-gray-800'>
             <p className=' mb-3'>
-              - Representation in disputes involving breaches of commercial
-              <br></br>
-              contracts, ensuring that clients' contractual rights are upheld.
-              <br></br>
+              - Representing the interests of the victim<br></br>
             </p>
             <p className='mb-3'>
-              - Protection and enforcement of intellectual property rights,
+              - Active Lawyers conduct a thorough review of the charges and
               <br></br>
-              including trademarks, patents, and copyrights.
-            </p>
-            <p className=' mb-3'>
-              - Legal support in employment disputes, including wrongful
+              evidence against the client, developing a strategic defense plan
               <br></br>
-              termination, workplace discrimination, and labor relations.
+              to challenge the prosecution’s case.
             </p>
           </div>
           <div class='text-left text-gray-800'>
@@ -75,15 +66,11 @@ const Alternative = () => {
               shareholder disputes and director responsibilities.
             </p>
             <p className=' mb-3'>
-              -Handling disputes related to real estate transactions, property
+              - Active Lawyers negotiate with prosecutors to seek favorable plea
               <br></br>
-              ownership, and land use.
-            </p>
-            <p className=' mb-3'>
-              - Assistance with disputes arising from commercial transactions
-              and
+              agreements, which may result in reduced charges or lighter
               <br></br>
-              trade agreements.
+              sentences for the client.
             </p>
           </div>
         </div>
@@ -104,4 +91,4 @@ const Alternative = () => {
   );
 };
 
-export default Alternative;
+export default Civil;

@@ -8,6 +8,7 @@ import Contact from './pages/Contact';
 import Alternative from './pages/Alternative';
 import Legal from './pages/Legal';
 import Bankruptcy from './pages/Bankruptcy';
+import Civil from './pages/Civil';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
 
           <Route path='/legal-services' element={<Services />}></Route>
           <Route path='/alternative' element={<Alternative />}></Route>
+          <Route path='/civil' element={<Civil />}></Route>
 
           <Route path='/partners' element={<Partners />}></Route>
 

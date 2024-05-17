@@ -32,38 +32,34 @@ const Bankruptcy = () => {
             Institute of Insolvency (Bankruptcy)
           </h1>
           <p class='text-gray-600 mb-4'>
-            The institution of bankruptcy (insolvency) is a tool that allows all
+            The institution of bankruptcy (insolvency) serves as a mechanism for
             <br></br>
-            interested parties to reach a compromise in the event of a difficult
+            all involved parties to reach a resolution during challenging debt
             <br></br>
-            situation with debt obligations or claims. Bankruptcy can be a
+            situations. Bankruptcy can provide a constructive solution for both
             <br></br>
-            constructive solution for both the debtor and the creditor. The
+            debtors and creditors. For the debtor, the bankruptcy process offers
             <br></br>
-            debtor, thanks to the bankruptcy procedure, has the opportunity to
+            an opportunity to discharge debts, halt the accumulation of fines
             <br></br>
-            get rid of debts, stop the accrual of fines and penalties, or, using
+            and penalties, or, through legally specified methods, restore
             <br></br>
-            methods specified by law, restore solvency and reduce the financial
+            solvency and alleviate financial burdens. For the creditor,<br></br>
+            bankruptcy facilitates the recovery of debt, potentially through the
             <br></br>
-            burden. The creditor, with the help of bankruptcy, can achieve
+            debtor's assets identified during the bankruptcy proceedings, and
             <br></br>
-            actual collection of debt, including, at the expense of the debtor’s
+            enables holding accountable those responsible for the insolvency.
             <br></br>
-            property discovered in the bankruptcy procedure, and bring to
+            Declaring a legal entity bankrupt is a multifaceted process that
             <br></br>
-            subsidiary liability the persons who made the decisions that led to
+            involves numerous legal actions requiring high legal expertise,
             <br></br>
-            insolvency. Declaring a legal entity bankrupt is a complex, complex
+            specialized skills, and extensive experience. One of the key areas
             <br></br>
-            procedure consisting of many separate legal actions that require
+            of specialization for Active Lawyers is handling bankruptcy cases
             <br></br>
-            high legal qualifications, specialized skills, and extensive
-            <br></br>
-            experience. One of the areas of activity in which the Wallman Law
-            <br></br>
-            Firm specializes is bankruptcy of legal entities and individuals.
-            <br></br>
+            for both legal entities and individuals.
           </p>
         </div>
 
@@ -81,123 +77,64 @@ const Bankruptcy = () => {
           Conditions for declaring a debtor insolvent (bankrupt)
         </h1>
         <p class='text-gray-600 mb-4'>
-          <span class='text-xl font-bold'>Criteria for individuals: </span>{' '}
-          <br></br>— the amount of debt must be at least 500,000 rubles (the
-          amount of debt may be less if there is information clearly indicating
-          insolvency);
+          <span class='text-xl font-bold'>Individuals: </span> An individual is
+          deemed bankrupt if they are unable to pay their debts as
+          <br></br>
+          they fall due, and this inability persists over a period.
           <br></br>- inability to pay debts for 3 months or more. <br></br>
           <br></br>
-          <span class='text-xl font-bold'>Criteria for legal entities: </span>
-          <br></br> — the amount of debt must be at least 300,000 rubles;
-          <br></br>- inability to pay debts for 3 months or more.
+          <span class='text-xl font-bold'>Corporate Entities: </span>A company
+          is considered insolvent if it cannot pay its debts. <br></br>This can
+          be determined by the company's inability to meet its financial
+          <br></br>
+          obligations or if its liabilities exceed its assets.
         </p>
       </div>
 
       <div class='flex flex-col justify-center items-left m-4 md:ml-[120px]'>
         <h1 class='text-2xl font-bold mb-2 flex flex-row gap-4'>
-          Protection of creditors' rights in bankruptcy proceedings
+          Creditor Petition:
         </h1>
         <p class='text-gray-600 mb-4'>
-          In the last few years, the practice of declaring debtors bankrupt has
-          become more frequent, which of course does not entail the most
-          favorable consequences for creditors. Our company offers you its
-          services to protect the rights of creditors from unlawful actions of
-          debtors and arbitration managers in bankruptcy proceedings for
-          individuals and legal entities:
-          <br></br> — inclusion in the register of claims of the debtor’s
-          creditors;
-          <br></br>— representing the interests of creditors at creditors’
-          meetings;
-          <br></br>— representing the interests of creditors at court hearings;
-          <br></br>— control over the activities of the arbitration manager
-          (monitoring and suppression of dishonest behavior, filing complaints
-          against the actions (inaction) of the arbitration manager in
-          bankruptcy proceedings);
-          <br></br>— challenging the debtor’s transactions in accordance with
-          the Civil Code of the Russian Federation and the Federal Law “On
-          Insolvency (Bankruptcy)”
+          A creditor owed more than a specified minimum amount (as stipulated by
+          <br></br>
+          the law) can file a petition to declare the debtor bankrupt if the
+          <br></br>
+          debtor has failed to satisfy the debt after due demand.
         </p>
       </div>
 
       <div class='flex flex-col justify-center items-left m-4 md:ml-[120px]'>
         <h1 class='text-2xl font-bold mb-2 flex flex-row gap-4'>
-          What to do if your debtor has filed for bankruptcy?
+          Acts of Bankruptcy:
         </h1>
         <p class='text-gray-600 mb-4'>
-          You can find out that your debtor, an individual/legal entity, has
-          been declared bankrupt from official sources, namely: the Kommersant
-          newspaper, the EFRSB website
-          https://old.bankrot.fedresurs.ru/?attempt=1
-          <br></br>We also recommend checking the electronic file cabinet
-          website https://kad.arbitr.ru/
-          <br></br> Please note that the period within which it is necessary to
-          file an application to declare a debtor bankrupt may differ depending
-          on the bankruptcy procedure introduced.
-          <br></br>If your debtor is declared bankrupt, you must first submit an
-          application for inclusion in the register of creditors. An application
-          for inclusion in the register of creditors' claims is sent to the
-          debtor, the arbitration manager and the court considering the debtor's
-          bankruptcy case.
+          Specific acts defined by law, such as the disposal of assets below
+          <br></br>
+          market value, evasion of creditors, or fraudulent transfers, can also
+          <br></br>
+          be grounds for declaring bankruptcy.
         </p>
       </div>
 
       <div class='flex flex-col justify-center items-left m-4 md:ml-[120px]'>
         <h1 class='text-2xl font-bold mb-2 flex flex-row gap-4'>
-          What to do if a bankruptcy petition has been filed against you as an
-          individual?
+          Legal and Practical Support:
         </h1>
         <p class='text-gray-600 mb-4'>
-          — Provide a written, motivated response to the creditor’s application
-          with references to the legislation in accordance with Article 47 of
-          the Federal Law of October 26, 2002 No. 127-FZ “On Insolvency
-          (Bankruptcy);
-          <br></br>— Participate in a court hearing to verify the validity of an
-          application to declare the debtor bankrupt;
-          <br></br>— Receive from the financial manager a notification that you
-          have been declared bankrupt, as well as a request for information;
-          <br></br>— The contractor is responsible for providing information to
-          the appointed financial manager. It is important to provide the
-          arbitration manager with reliable information;
-          <br></br>— Open a special bank account / send an application to the
-          arbitration manager for the issuance of a living wage (depending on
-          the bankruptcy procedure);
-          <br></br>— Track information on the case on the electronic filing
-          website https://kad.arbitr.ru/
-        </p>
-      </div>
-
-      <div class='flex flex-col justify-center items-left m-4 md:ml-[120px]'>
-        <h1 class='text-2xl font-bold mb-2 flex flex-row gap-4'>
-          Advantages of bankruptcy proceedings for individuals
-        </h1>
-        <p class='text-gray-600 mb-4'>
-          — By contacting us, you receive a turnkey service, without hidden or
-          additional payments;
-          <br></br>— The price includes: collection of documents, preparation of
-          an application and inventory of property, filing applications to
-          maintain the subsistence level, court deposit, publications,
-          cancellation of court orders and court decisions, postage;
-          <br></br>— Legal support and advice for the entire period of the
-          bankruptcy procedure are included in the cost of services;
-          <br></br> — Bankruptcy without your presence in court;
-          <br></br>— We will protect you from collectors;
-          <br></br>— Debts are written off: for loans, microloans, receipts,
-          surety obligations, debts for housing and communal services, fines,
-          fees, taxes, penalties;
-          <br></br>— We will stop the accrual of interest, fines and penalties;
-          <br></br>— We will preserve the property;
-          <br></br>— We will maintain and pay the living wage without delays;
-          <br></br>— We will save money for rent;
-          <br></br> — We will save money to pay utility bills;
-          <br></br>— We will save money to pay for medicines and medical
-          services;
-          <br></br>— Unblock accounts and bank cards; — We will stop the
-          collection of bailiffs;
-          <br></br>— We will stop enforcement proceedings of the FSSP;
-          <br></br> — We will remove seizures from property;
-          <br></br>— We will lift the ban on traveling abroad;
-          <br></br>— We will cancel court orders and court decisions on the
-          collection of funds;
+          Given the complexities involved in bankruptcy proceedings, legal
+          <br></br>
+          expertise is crucial. Active Lawyers specialize in handling bankruptcy
+          <br></br>
+          cases, offering services that include:<br></br> <br></br>- Advising on
+          the legal implications of bankruptcy and insolvency.
+          <br></br>- Assisting with the filing of petitions and navigating court
+          procedures. <br></br>- Managing creditor negotiations and
+          restructuring agreements.
+          <br></br> - Representing clients in court and during creditors'
+          meetings.
+          <br></br>- Ensuring compliance with all legal requirements and
+          protecting clients' rights throughout the process.
         </p>
       </div>
 

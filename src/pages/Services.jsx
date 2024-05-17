@@ -67,7 +67,10 @@ const Services = () => {
             <h1>More details </h1>
           </a>
 
-          <a href='/' class='flex flex-col justify-around mr-36 items-left m-4'>
+          <a
+            href='/civil'
+            class='flex flex-col justify-around mr-36 items-left m-4'
+          >
             <img src={cri} alt='icon' className='w-12 h-12 mb-7' />
             <h3 className=' mb-2 font-medium text-2xl hover:text-gold'>
               Civil/Criminal<br></br> Litigation
