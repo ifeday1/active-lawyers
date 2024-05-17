@@ -45,7 +45,7 @@ const Footer = () => {
                 <path d='M16 19m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0' />
                 <path d='M21 16l-5 3l5 2' />
               </svg>
-              King Ogbuefi Steet, Abuja, Nigeria
+              2A , ogbuefit street , Arab road , Abuja
             </p>
           </div>
 

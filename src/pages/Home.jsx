@@ -44,27 +44,23 @@ const Home = () => {
             Why do clients <br></br>choose Active Lawyers?
           </h1>
           <p class='text-gray-600 mb-4'>
-            Protection is a complex process consisting of many different
+            Active Lawyers boast a team of highly skilled professionals with
             <br></br>
-            aspects. If for a business it is optimizing costs, eliminating risks
+            specialized expertise in various areas of law. Clients appreciate
             <br></br>
-            and protecting assets, then for a citizen it is preserving freedom,
+            the in-depth knowledge and experience that the firm brings to their
             <br></br>
-            property, honor and dignity. For Active Lawyers, this is a
-            responsibility,
+            specific legal needs, ensuring high-quality service and effective
             <br></br>
-            legal and moral. Active Lawyers always stands for sincerity and
-            transparent
+            representation. Protection is a complex process consisting of many
             <br></br>
-            relationships without false guarantees. Active Lawyers for quality,
+            different aspects. For businesses, it means optimizing costs,
             <br></br>
-            fulfillment of its obligations, efficiency and modern experience.
+            eliminating risks, and protecting assets. For citizens, it involves
             <br></br>
-            The ability to protect means protecting a business or person from
+            preserving freedom, property, honor, and dignity. For Active
             <br></br>
-            problems. Working with Active Lawyers means being behind a stone
-            wall.
-            <br></br>
+            Lawyers, it is a responsibility—both legal and moral.
           </p>
           <button class=' bg-gold hover:bg-dark text-white font-bold py-2 px-4 rounded'>
             More about us
