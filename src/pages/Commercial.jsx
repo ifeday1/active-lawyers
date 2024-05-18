@@ -6,7 +6,7 @@ import tax from '../assests/tax.png';
 import gen from '../assests/gen.jpg';
 import WhatsappChat from '../components/Whatsapp/Index';
 
-const Tax = () => {
+const Commercial = () => {
   return (
     <>
       <Navbar />
@@ -17,23 +17,22 @@ const Tax = () => {
             <span>
               <img src={tax} alt='srb' className=' w-16 mb-5' />
             </span>{' '}
-            Tax Law
+            Commercial and Trade Investment Disputes
           </h1>
           <p class='text-gray-600 mb-4'>
-            Tax law in Nigeria is governed by various legislations, including
+            Commercial and trade investment disputes are conflicts that arise in
             <br></br>
-            the Companies Income Tax Act (CITA), Personal Income Tax Act (PITA),
+            the context of business transactions, trade agreements, and<br></br>
+            investment activities. These disputes can involve various issues
             <br></br>
-            Value Added Tax Act (VAT), and other relevant laws and regulations.
+            such as breach of contract, disagreements over terms and conditions,
             <br></br>
-            These laws dictate how taxes are levied on individuals and<br></br>
-            businesses, covering aspects such as income tax, corporate tax, VAT,
+            misrepresentation, non-performance, and investment treaty<br></br>
+            violations. Given the complexity and high stakes involved in these
             <br></br>
-            and more. Compliance with these tax laws is mandatory for both
+            disputes, specialized legal expertise is essential for effective
             <br></br>
-            individuals and businesses, and failure to comply can result in
-            <br></br>
-            significant penalties and legal consequences.
+            resolution.
           </p>
         </div>
 
@@ -53,16 +52,18 @@ const Tax = () => {
 
         <div iv class='flex justify-around flex-col md:flex-row  p-4'>
           <div class='text-left text-gray-800'>
-            <p className=' mb-3'>- Tax Planning and Advisory</p>
-            <p className='mb-3'>- Tax Compliance</p>
-            <p className='mb-3'>- Tax Dispute Resolution</p>
-            <p className=' mb-3'>-Corporate Tax Services</p>
+            <p className=' mb-3'>- Legal Advisory and Consultation</p>
+            <p className='mb-3'>- Contract Review and Drafting</p>
+            <p className='mb-3'>- Dispute Resolution Strategies:</p>
+            <p className=' mb-3'>- Litigation Services</p>
+            <p className=' mb-3'>- Settlement Negotiations</p>
           </div>
           <div class='text-left text-gray-800'>
-            <p className=' mb-3'>- VAT Services</p>
-            <p className=' mb-3'>- Customs and Excise Duties</p>
-            <p className=' mb-3'>- Training and Seminars</p>
-            <p className=' mb-3'>- International Taxation</p>
+            <p className=' mb-3'>- International Arbitration</p>
+            <p className=' mb-3'>- Investment Treaty Claims</p>
+            <p className=' mb-3'>- Regulatory Compliance</p>
+            <p className=' mb-3'>- Crisis Management</p>
+            <p className=' mb-3'>- Post-Resolution Support:</p>
           </div>
         </div>
       </div>
@@ -82,4 +83,4 @@ const Tax = () => {
   );
 };
 
-export default Tax;
+export default Commercial;

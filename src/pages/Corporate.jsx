@@ -2,11 +2,11 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import ContactForm from '../components/ContactForm';
-import tax from '../assests/tax.png';
+import inh from '../assests/inh.png';
 import gen from '../assests/gen.jpg';
 import WhatsappChat from '../components/Whatsapp/Index';
 
-const Tax = () => {
+const Corporate = () => {
   return (
     <>
       <Navbar />
@@ -15,25 +15,20 @@ const Tax = () => {
         <div class='flex flex-col justify-center items-left m-4'>
           <h1 class='text-2xl font-bold mb-2 flex flex-row gap-4'>
             <span>
-              <img src={tax} alt='srb' className=' w-16 mb-5' />
+              <img src={inh} alt='srb' className=' w-16 mb-5' />
             </span>{' '}
-            Tax Law
+            Corporate Law Services
           </h1>
           <p class='text-gray-600 mb-4'>
-            Tax law in Nigeria is governed by various legislations, including
+            Corporate law encompasses a wide range of legal services designed to
             <br></br>
-            the Companies Income Tax Act (CITA), Personal Income Tax Act (PITA),
+            support businesses throughout their lifecycle—from formation and
             <br></br>
-            Value Added Tax Act (VAT), and other relevant laws and regulations.
+            governance to compliance and dispute resolution. It addresses the
             <br></br>
-            These laws dictate how taxes are levied on individuals and<br></br>
-            businesses, covering aspects such as income tax, corporate tax, VAT,
+            legal framework within which companies operate, ensuring they adhere
             <br></br>
-            and more. Compliance with these tax laws is mandatory for both
-            <br></br>
-            individuals and businesses, and failure to comply can result in
-            <br></br>
-            significant penalties and legal consequences.
+            to statutory regulations and best practices.
           </p>
         </div>
 
@@ -53,16 +48,17 @@ const Tax = () => {
 
         <div iv class='flex justify-around flex-col md:flex-row  p-4'>
           <div class='text-left text-gray-800'>
-            <p className=' mb-3'>- Tax Planning and Advisory</p>
-            <p className='mb-3'>- Tax Compliance</p>
-            <p className='mb-3'>- Tax Dispute Resolution</p>
-            <p className=' mb-3'>-Corporate Tax Services</p>
+            <p className=' mb-3'>- Company Formation and Structuring</p>
+            <p className='mb-3'>- Corporate Governance</p>
+            <p className='mb-3'>- Mergers and Acquisitions (M&A)</p>
+            <p className=' mb-3'>- Regulatory Compliance</p>
+            <p className=' mb-3'>- Corporate Restructuring:</p>
           </div>
           <div class='text-left text-gray-800'>
-            <p className=' mb-3'>- VAT Services</p>
-            <p className=' mb-3'>- Customs and Excise Duties</p>
-            <p className=' mb-3'>- Training and Seminars</p>
-            <p className=' mb-3'>- International Taxation</p>
+            <p className=' mb-3'>- Contract Drafting and Review</p>
+            <p className=' mb-3'>- Intellectual Property (IP) Protection</p>
+            <p className=' mb-3'>- Dispute Resolution</p>
+            <p className=' mb-3'>- Employment and Labor Law</p>
           </div>
         </div>
       </div>
@@ -82,4 +78,4 @@ const Tax = () => {
   );
 };
 
-export default Tax;
+export default Corporate;

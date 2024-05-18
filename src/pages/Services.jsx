@@ -125,7 +125,10 @@ const Services = () => {
             <h1>More details </h1>
           </a>
 
-          <a href='/' class='flex flex-col justify-center  items-left m-4'>
+          <a
+            href='/corporate'
+            class='flex flex-col justify-center  items-left m-4'
+          >
             <img src={inh} alt='icon' className='w-12 h-12 mb-7' />
             <h3 className=' mb-2 font-medium text-2xl hover:text-gold'>
               Corporate Law Services
@@ -133,7 +136,10 @@ const Services = () => {
             <h1>More details </h1>
           </a>
 
-          <a href='/' class='flex flex-col justify-center items-left m-4'>
+          <a
+            href='/intellectual'
+            class='flex flex-col justify-center items-left m-4'
+          >
             <img src={int} alt='icon' className='w-12 h-12 mb-7' />
             <h3 className=' mb-2 font-medium text-2xl hover:text-gold'>
               Intellectual Property Law
@@ -144,7 +150,10 @@ const Services = () => {
 
         {/* flex4 */}
         <div class='flex justify-around flex-col md:flex-row items-left mt-14'>
-          <a href='/' class='flex flex-col justify-center items-left m-4'>
+          <a
+            href='/commercial'
+            class='flex flex-col justify-center items-left m-4'
+          >
             <img src={tax} alt='icon' className='w-12 h-12 mb-7' />
             <h3 className=' mb-2 font-medium text-2xl hover:text-gold'>
               Commercial and Trade<br></br> Investment Disputes
