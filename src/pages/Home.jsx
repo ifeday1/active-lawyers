@@ -116,7 +116,7 @@ const Home = () => {
             Get your Active Lawyers Lawyers loyalty card
           </p>
 
-          <div class='flex justify-center items-center mb-4 gap-10'>
+          <div class='flex justify-center flex-col md:flex-row items-center mb-4 gap-10'>
             <div>
               <p class='text-gray-700 font-bold'>
                 Cashback with bonus<br></br> points up to 3% of the<br></br>{' '}
@@ -133,13 +133,13 @@ const Home = () => {
               </p>
 
               <p class='text-gray-700'>
-                1 point = 1 ruble. Pay up to 20% of <br></br>the cost of
+                1 point = 1000 Naira. Pay up to 20% of <br></br>the cost of
                 services
               </p>
             </div>
           </div>
           {/* second  */}
-          <div class='flex justify-center items-center mb-4 gap-10'>
+          <div class='flex justify-center flex-col md:flex-row items-center mb-4 gap-10'>
             <div>
               <p class='text-gray-700 font-bold'>10,000 points as a gift</p>
 
@@ -149,7 +149,7 @@ const Home = () => {
             </div>
             <div>
               <p class='text-gray-700 font-bold'>
-                10,000 rubles in cash for a<br></br> recommendation
+                10,000 Naira in cash for a<br></br> recommendation
               </p>
 
               <p class='text-gray-700'>
@@ -161,7 +161,7 @@ const Home = () => {
           </div>
 
           {/* Third  */}
-          <div class='flex justify-center items-center mb-4 gap-10'>
+          <div class='flex justify-center flex-col md:flex-row items-center mb-4 gap-10'>
             <div>
               <p class='text-gray-700 font-bold'>
                 10,000 points <br></br>per recommendation
