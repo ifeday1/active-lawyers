@@ -40,7 +40,7 @@ const Home = () => {
 
       <div class='flex flex-wrap justify-center items-center mt-5'>
         <div class='flex flex-col justify-center items-left m-4'>
-          <h1 class='text-2xl font-bold mb-2'>
+          <h1 class='text-2xl font-bold mb-9'>
             Why do clients <br></br>choose Active Lawyers?
           </h1>
           <p class='text-gray-600 mb-4'>
