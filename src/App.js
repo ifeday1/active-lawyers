@@ -9,6 +9,10 @@ import Alternative from './pages/Alternative';
 import Legal from './pages/Legal';
 import Bankruptcy from './pages/Bankruptcy';
 import Civil from './pages/Civil';
+import Family from './pages/Family';
+import Labour from './pages/Labour';
+import Property from './pages/Property';
+import Tax from './pages/Tax';
 
 function App() {
   return (
@@ -22,6 +26,10 @@ function App() {
           <Route path='/legal-services' element={<Services />}></Route>
           <Route path='/alternative' element={<Alternative />}></Route>
           <Route path='/civil' element={<Civil />}></Route>
+          <Route path='/family' element={<Family />}></Route>
+          <Route path='/labour' element={<Labour />}></Route>
+          <Route path='/property' element={<Property />}></Route>
+          <Route path='/tax' element={<Tax/>}></Route>
 
           <Route path='/partners' element={<Partners />}></Route>
 

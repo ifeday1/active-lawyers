@@ -11,7 +11,7 @@ const Alternative = () => {
     <>
       <Navbar />
 
-      <div class='flex flex-wrap justify-around items-center mt-28  '>
+      <div class='flex flex-wrap justify-around items-center mt-28 md:mt-40   '>
         <div class='flex flex-col justify-center items-left m-4'>
           <h1 class='text-2xl font-bold mb-2 flex flex-row gap-4'>
             <span>
@@ -49,7 +49,7 @@ const Alternative = () => {
           Active Lawyers provides the following legal assistance:
         </h1>
 
-        <div class='flex justify-around  p-4'>
+        <div class='flex justify-around flex-col md:flex-row  p-4'>
           <div class='text-left text-gray-800'>
             <p className=' mb-3'>
               - Representation in disputes involving breaches of commercial

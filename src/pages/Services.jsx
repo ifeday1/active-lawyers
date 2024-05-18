@@ -81,7 +81,10 @@ const Services = () => {
 
         {/* flex2 */}
         <div class='flex justify-around flex-col md:flex-row  items-left mt-14'>
-          <a href='/' class='flex flex-col justify-center mr-10 items-left m-4'>
+          <a
+            href='/family'
+            class='flex flex-col justify-center mr-10 items-left m-4'
+          >
             <img src={fam} alt='icon' className='w-12 h-12 mb-7' />
             <h3 className=' mb-2 font-medium text-2xl hover:text-gold'>
               Family Law
@@ -89,15 +92,21 @@ const Services = () => {
             <h1>More details </h1>
           </a>
 
-          <a href='/' class='flex flex-col justify-center  items-left m-4'>
+          <a
+            href='/labour'
+            class='flex flex-col justify-center  items-left m-4'
+          >
             <img src={lab} alt='icon' className='w-12 h-12 mb-7' />
             <h3 className=' mb-2 font-medium text-2xl hover:text-gold'>
-              Labor law
+              Labour law
             </h3>
             <h1>More details </h1>
           </a>
 
-          <a href='/' class='flex flex-col justify-center items-left m-4'>
+          <a
+            href='/property'
+            class='flex flex-col justify-center items-left m-4'
+          >
             <img src={land} alt='icon' className='w-12 h-12 mb-7' />
             <h3 className=' mb-2 font-medium text-2xl hover:text-gold'>
               Property Law
@@ -108,7 +117,7 @@ const Services = () => {
 
         {/* flex3 */}
         <div class='flex justify-around flex-col md:flex-row items-left mt-14'>
-          <a href='/' class='flex flex-col justify-center items-left m-4'>
+          <a href='/tax' class='flex flex-col justify-center items-left m-4'>
             <img src={tax} alt='icon' className='w-12 h-12 mb-7' />
             <h3 className=' mb-2 font-medium text-2xl hover:text-gold'>
               Tax Law
