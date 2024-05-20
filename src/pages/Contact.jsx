@@ -17,7 +17,7 @@ const Contact = () => {
           class='max-w-full h-[300px] md:h-auto'
         />
 
-        <div class='absolute top-0 left-0 w-full h-full flex justify-start flex-col pt-[170px] md:pt-[190px] text-center'>
+        <div class='absolute top-0 left-0 w-full h-full flex justify-start flex-col md:flex-col pt-[170px] md:pt-[190px] text-center'>
           <p>
             <div class=' px-5 md:ml-20 flex justify-start text-white text-2xl md:text-5xl gap-3'>
               Contact
@@ -27,31 +27,30 @@ const Contact = () => {
         </div>
       </div>
 
-      <div class='flex justify-around items-center mt-20 '>
+      <div class='flex justify-around flex-col md:flex-row items-center mt-20 '>
         <div class='flex flex-col justify-center items-left m-4'>
           <p>
-            Wallman is a company providing professional legal services,<br></br>
-            specializing in civil and criminal law, bankruptcy and business
+            Active Lawyers is a firm providing professional legal services,
             <br></br>
-            support. The judicial practice we have formed sets trends in the
+            specializing in civil and criminal law, bankruptcy, and business
             <br></br>
-            field of law. Thanks to modern legal experience, Wallman specialists
+            support. Our established judicial practice sets trends in the legal
             <br></br>
-            are able to solve any legal problem throughout the Russian<br></br>
-            Federation.
+            field. Leveraging modern legal expertise, Active Lawyers'<br></br>
+            specialists can address any legal issue throughout Nigeria.<br></br>
           </p>
           <be></be>
           <br></br>
           <p>
-            Today, Wallman 's staff includes about 20 employees and partners,
+            Currently, Active Lawyers employs around 20 professionals and
             <br></br>
-            among them: lawyers, attorneys, accountants and experts in various
+            partners, including lawyers, attorneys, accountants, and experts in
             <br></br>
-            fields of law. An important advantage of Wallman is the ability to
+            various legal disciplines. A key advantage of Active Lawyers is our
             <br></br>
-            comprehensively and efficiently support the affairs of its clients
+            ability to provide comprehensive and efficient support for our
             <br></br>
-            on all issues that arise.
+            clients' matters across all legal issues.
           </p>
           <h4 class='flex items-left gap-2 pt-9 font-semibold text-2xl'>
             <svg
@@ -69,7 +68,7 @@ const Contact = () => {
               <path stroke='none' d='M0 0h24v24H0z' fill='none' />
               <path d='M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2' />
             </svg>
-            +234 -----
+            +234 813 350 9462
           </h4>
           <h4 class='flex items-left  gap-2 font-semibold text-2xl'>
             <svg
@@ -90,20 +89,12 @@ const Contact = () => {
             </svg>
             activelawywers@gmail.com
           </h4>
-          <h4>Heading 3</h4>
+          {/* <h4>Heading 3</h4> */}
         </div>
 
         <div class='flex flex-col justify-center items-left m-4'>
           <h2 class='text-2xl font-bold mb-2'>Office addresses:</h2>
-          <p>
-            Moscow, Presnenskaya embankment, 8, building 1, fl. 10 (MIBC "Moscow
-            <br></br>
-            City" MFC "City of Capitals" BC "Northern Block") Irkutsk, st.
-            <br></br>
-            Chekhova 2, office 303 (TD "Fortuna Plaza") Bratsk, st. Naimushina
-            <br></br>
-            28, office 214 (hotel "Tourist")
-          </p>
+          <p>2A , ogbuefit street , Arab road , Abuja</p>
         </div>
       </div>
 
