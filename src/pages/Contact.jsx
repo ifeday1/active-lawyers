@@ -93,8 +93,8 @@ const Contact = () => {
         </div>
 
         <div class='flex flex-col justify-center items-left m-4'>
-          <h2 class='text-2xl font-bold mb-2'>Office addresses:</h2>
-          <p>2A , ogbuefit street , Arab road , Abuja</p>
+          <h2 class='text-2xl font-bold mb-2'>Office address:</h2>
+          <p>2A ,ogbuefit street , Arab road Abuja</p>
         </div>
       </div>
 
