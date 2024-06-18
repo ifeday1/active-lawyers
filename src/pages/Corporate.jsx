@@ -72,7 +72,7 @@ const Corporate = () => {
       </div>
 
       <ContactForm />
-      <WhatsappChat />
+
       <Footer />
     </>
   );
