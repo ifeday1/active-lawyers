@@ -4,9 +4,9 @@ const Footer = () => {
   return (
     <>
       <div class='flex flex-col md:flex-row justify-around items-center bg-black'>
-        <div class='flex flex-row gap-7 justify-center items-center m-4 text-white'>
-          <div class='flex flex-col text-sm justify-left  text-white'>
-            <p class='flex items-left justify-left gap-2'>
+        <div class='flex flex-col gap-7 justify-center items-center m-4 text-white'>
+          <div class='flex flex-col text-sm justify-center  text-white'>
+            <p class='flex items-center justify-center '>
               <svg
                 xmlns='http://www.w3.org/2000/svg'
                 class='icon icon-tabler icon-tabler-phone'
@@ -24,7 +24,7 @@ const Footer = () => {
               </svg>
               +234 813 350 9462
             </p>
-            <p class='flex items-center justify-center gap-2'>
+            <p class='flex items-center justify-center'>
               <svg
                 xmlns='http://www.w3.org/2000/svg'
                 class='icon icon-tabler icon-tabler-home-link'
