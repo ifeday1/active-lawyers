@@ -49,7 +49,7 @@ const Footer = () => {
             </p>
           </div>
 
-          <p class='flex items-center justify-center gap-2'>
+          <p class='flex items-center justify-center'>
             <svg
               xmlns='http://www.w3.org/2000/svg'
               class='icon icon-tabler icon-tabler-mail'
@@ -70,7 +70,7 @@ const Footer = () => {
           </p>
         </div>
 
-        <div class='flex flex-col  items-left m-4 text-white'>
+        <div class='flex flex-col  items-center m-4 text-white'>
           <a href='/service'>
             <div class='  text-white text-sm  hover:text-yellow-600 transition duration-300 ease-in-out'>
               Policy for processing and protection of personal data
