@@ -45,7 +45,7 @@ const Footer = () => {
                 <path d='M16 19m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0' />
                 <path d='M21 16l-5 3l5 2' />
               </svg>
-              2A , ogbuefit street , Arab road , Abuja
+              2A, ogbuefit street, Arab road, Abuja
             </p>
           </div>
 
@@ -72,7 +72,7 @@ const Footer = () => {
 
         <div class='flex flex-col  items-center m-4 text-white'>
           <a href='/service'>
-            <div class='  text-white text-sm  hover:text-yellow-600 transition duration-300 ease-in-out'>
+            <div class=' text-white text-sm  hover:text-yellow-600 transition duration-300 ease-in-out'>
               Policy for processing and protection of personal data
             </div>
           </a>
