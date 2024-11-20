@@ -89,7 +89,6 @@ const Contact = () => {
             </svg>
             activelawywers@gmail.com
           </h4>
-          {/* <h4>Heading 3</h4> */}
         </div>
 
         <div class='flex flex-col justify-center items-left m-4'>
